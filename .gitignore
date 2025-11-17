@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+*.egg
+
+# ROS2
+build/
+install/
+log/
+*.bag
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (ONNXファイルは大きいので除外)
+*.onnx
+*.pt
+models/
+
+# Temporary files
+*.log
+*.tmp
